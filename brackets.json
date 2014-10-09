@@ -1,0 +1,349 @@
+{
+    "debug.showErrorsInStatusBar": false,
+    "mikaeljorhult.bracketsPHPLintTools.php-available": true,
+    "themes.theme": "dark-theme",
+    "themes.themeScrollbars": true,
+    "mikaeljorhult.bracketsPHPLintTools.enabled-tools": [
+        "phpcs",
+        "phpcpd",
+        "phpl",
+        "phpmd"
+    ],
+    "mikaeljorhult.bracketsPHPLintTools.phpcs-standards": [
+        "PSR1",
+        "PSR2"
+    ],
+    "mikaeljorhult.bracketsPHPLintTools.phpmd-rulesets": [
+        "cleancode",
+        "codesize",
+        "controversial",
+        "design",
+        "naming",
+        "unusedcode"
+    ],
+    "linting.collapsed": true,
+    "fonts.fontSize": "12px",
+    "showLineNumbers": true,
+    "sacah.keyremapper.loadremapperdialog.keymap": {
+        "navigate.toggleQuickEdit": {
+            "commandID": "navigate.toggleQuickEdit",
+            "key": "Ctrl-E"
+        },
+        "navigate.toggleQuickDocs": {
+            "commandID": "navigate.toggleQuickDocs",
+            "key": "Ctrl-K"
+        },
+        "navigate.jumptoDefinition": {
+            "commandID": "navigate.jumptoDefinition",
+            "key": "Ctrl-Shift-I"
+        },
+        "file.openFolder": {
+            "commandID": "file.openFolder",
+            "key": "Alt-F-O"
+        },
+        "file.open": {
+            "commandID": "file.open",
+            "key": "Alt-F-F"
+        },
+        "file.newDoc": {
+            "commandID": "file.newDoc",
+            "key": "Alt-F-Alt-I"
+        },
+        "file.save": {
+            "commandID": "file.save",
+            "key": "Ctrl-S"
+        },
+        "file.saveAll": {
+            "commandID": "file.saveAll",
+            "key": "Ctrl-S"
+        },
+        "file.saveAs": {
+            "commandID": "file.saveAs",
+            "key": "Ctrl-Shift-S"
+        },
+        "file.rename": {
+            "commandID": "file.rename",
+            "key": "F2"
+        },
+        "file.close": {
+            "commandID": "file.close",
+            "key": "Ctrl-F4"
+        },
+        "file.close_all": {
+            "commandID": "file.close_all",
+            "key": "Ctrl-Shift-W"
+        },
+        "navigate.nextDoc": {
+            "commandID": "navigate.nextDoc",
+            "key": "Ctrl-Tab"
+        },
+        "navigate.prevDoc": {
+            "commandID": "navigate.prevDoc",
+            "key": "Ctrl-Shift-Tab"
+        },
+        "file.quit": {
+            "commandID": "file.quit",
+            "key": "Alt-F-X"
+        },
+        "edit.showCodeHints": {
+            "commandID": "edit.showCodeHints",
+            "key": "Ctrl-Space"
+        },
+        "view.increaseFontSize": {
+            "commandID": "view.increaseFontSize",
+            "key": "Ctrl-+"
+        },
+        "view.decreaseFontSize": {
+            "commandID": "view.decreaseFontSize",
+            "key": "Ctrl--"
+        },
+        "view.restoreFontSize": {
+            "commandID": "view.restoreFontSize",
+            "key": "Ctrl-0"
+        },
+        "view.scrollLineUp": {
+            "commandID": "view.scrollLineUp",
+            "key": "Ctrl-Up"
+        },
+        "view.scrollLineDown": {
+            "commandID": "view.scrollLineDown",
+            "key": "Ctrl-Down"
+        },
+        "navigate.gotoFirstProblem": {
+            "commandID": "navigate.gotoFirstProblem",
+            "key": "F8"
+        },
+        "navigate.previousMatch": {
+            "commandID": "navigate.previousMatch",
+            "key": "Alt-Up"
+        },
+        "navigate.nextMatch": {
+            "commandID": "navigate.nextMatch",
+            "key": "Alt-Down"
+        },
+        "navigate.newRule": {
+            "commandID": "navigate.newRule",
+            "key": "Ctrl-Alt-N"
+        },
+        "navigate.quickOpen": {
+            "commandID": "navigate.quickOpen",
+            "key": "Ctrl-Shift-O"
+        },
+        "navigate.gotoDefinition": {
+            "commandID": "navigate.gotoDefinition",
+            "key": "Ctrl-T"
+        },
+        "navigate.gotoLine": {
+            "commandID": "navigate.gotoLine",
+            "key": "Ctrl-G"
+        },
+        "view.hideSidebar": {
+            "commandID": "view.hideSidebar",
+            "key": "Alt-1"
+        },
+        "file.liveFilePreview": {
+            "commandID": "file.liveFilePreview",
+            "key": "Ctrl-Alt-P"
+        },
+        "file.previewHighlight": {
+            "commandID": "file.previewHighlight",
+            "key": "Ctrl-Shift-C"
+        },
+        "file.reloadLivePreview": {
+            "commandID": "file.reloadLivePreview",
+            "key": "Ctrl-Shift-R"
+        },
+        "edit.indent": {
+            "commandID": "edit.indent",
+            "key": "Ctrl-]"
+        },
+        "edit.unindent": {
+            "commandID": "edit.unindent",
+            "key": "Ctrl-["
+        },
+        "edit.lineComment": {
+            "commandID": "edit.lineComment",
+            "key": "Ctrl-/"
+        },
+        "edit.blockComment": {
+            "commandID": "edit.blockComment",
+            "key": "Ctrl-Shift-/"
+        },
+        "edit.duplicate": {
+            "commandID": "edit.duplicate",
+            "key": "Ctrl-D"
+        },
+        "edit.deletelines": {
+            "commandID": "edit.deletelines",
+            "key": "Ctrl-Shift-D"
+        },
+        "edit.lineUp": {
+            "commandID": "edit.lineUp",
+            "key": "Ctrl-Shift-Up"
+        },
+        "edit.lineDown": {
+            "commandID": "edit.lineDown",
+            "key": "Ctrl-Shift-Down"
+        },
+        "edit.openLineAbove": {
+            "commandID": "edit.openLineAbove",
+            "key": "Shift-Enter"
+        },
+        "edit.openLineBelow": {
+            "commandID": "edit.openLineBelow",
+            "key": "Ctrl-Enter"
+        },
+        "edit.selectLine": {
+            "commandID": "edit.selectLine",
+            "key": "Ctrl-L"
+        },
+        "edit.splitSelIntoLines": {
+            "commandID": "edit.splitSelIntoLines",
+            "key": "Ctrl-Alt-L"
+        },
+        "edit.addCursorToNextLine": {
+            "commandID": "edit.addCursorToNextLine",
+            "key": "Alt-Shift-Down"
+        },
+        "edit.addCursorToPrevLine": {
+            "commandID": "edit.addCursorToPrevLine",
+            "key": "Alt-Shift-Up"
+        },
+        "edit.undo": {
+            "commandID": "edit.undo",
+            "key": "Ctrl-Z"
+        },
+        "edit.redo": {
+            "commandID": "edit.redo",
+            "key": "Ctrl-Y"
+        },
+        "edit.cut": {
+            "commandID": "edit.cut",
+            "key": "Ctrl-X"
+        },
+        "edit.copy": {
+            "commandID": "edit.copy",
+            "key": "Ctrl-C"
+        },
+        "edit.paste": {
+            "commandID": "edit.paste",
+            "key": "Ctrl-V"
+        },
+        "edit.selectAll": {
+            "commandID": "edit.selectAll",
+            "key": "Ctrl-A"
+        },
+        "help.support": {
+            "commandID": "help.support",
+            "key": "F1"
+        },
+        "cmd.findInFiles": {
+            "commandID": "cmd.findInFiles",
+            "key": "Ctrl-Shift-F"
+        },
+        "cmd.replaceInFiles": {
+            "commandID": "cmd.replaceInFiles",
+            "key": "Ctrl-Shift-H"
+        },
+        "cmd.find": {
+            "commandID": "cmd.find",
+            "key": "Ctrl-F"
+        },
+        "cmd.findNext": {
+            "commandID": "cmd.findNext",
+            "key": "F3"
+        },
+        "cmd.replace": {
+            "commandID": "cmd.replace",
+            "key": "Ctrl-H"
+        },
+        "cmd.findPrevious": {
+            "commandID": "cmd.findPrevious",
+            "key": "Shift-F3"
+        },
+        "cmd.findAllAndSelect": {
+            "commandID": "cmd.findAllAndSelect",
+            "key": "Alt-F3"
+        },
+        "cmd.addNextMatch": {
+            "commandID": "cmd.addNextMatch",
+            "key": "Ctrl-B"
+        },
+        "cmd.skipCurrentMatch": {
+            "commandID": "cmd.skipCurrentMatch",
+            "key": "Ctrl-Shift-B"
+        },
+        "recentProjects.toggle": {
+            "commandID": "recentProjects.toggle",
+            "key": "Ctrl-Alt-R"
+        },
+        "debug.showDeveloperTools": {
+            "commandID": "debug.showDeveloperTools",
+            "key": "F12"
+        },
+        "debug.refreshWindow": {
+            "commandID": "debug.refreshWindow",
+            "key": "F5"
+        },
+        "debug.reloadWithoutUserExts": {
+            "commandID": "debug.reloadWithoutUserExts",
+            "key": "Shift-F5"
+        },
+        "testingThings": {
+            "commandID": "testingThings",
+            "key": "Alt-T"
+        },
+        "showParameterHint": {
+            "commandID": "showParameterHint",
+            "key": "Ctrl-Shift-Space"
+        },
+        "codefolding.collapse": {
+            "commandID": "codefolding.collapse",
+            "key": "Ctrl-Alt-C"
+        },
+        "codefolding.expand": {
+            "commandID": "codefolding.expand",
+            "key": "Ctrl-Alt-X"
+        },
+        "codefolding.collapse.all": {
+            "commandID": "codefolding.collapse.all",
+            "key": "CtrAlt-1"
+        },
+        "codefolding.expand.all": {
+            "commandID": "codefolding.expand.all",
+            "key": "Alt-Shift-1"
+        },
+        "brackets-git.panel": {
+            "commandID": "brackets-git.panel",
+            "key": "Ctrl-Alt-G"
+        }
+    },
+    "brackets-git.gitPath": "git",
+    "brackets-git.stripWhitespaceFromCommits": true,
+    "brackets-git.addEndlineToTheEndOfFile": true,
+    "brackets-git.removeByteOrderMark": false,
+    "brackets-git.normalizeLineEndings": false,
+    "brackets-git.useGitGutter": true,
+    "brackets-git.markModifiedInTree": true,
+    "brackets-git.showBashButton": true,
+    "brackets-git.showReportBugButton": true,
+    "brackets-git.useCodeInspection": true,
+    "brackets-git.useGitFtp": false,
+    "brackets-git.useVerboseDiff": false,
+    "brackets-git.useDifftool": false,
+    "brackets-git.avatarType": "AVATAR_COLOR",
+    "brackets-git.dateMode": 1,
+    "brackets-git.dateFormat": null,
+    "brackets-git.enableAdvancedFeatures": false,
+    "brackets-git.panelShortcut": "Ctrl-Alt-G",
+    "brackets-git.commitCurrentShortcut": null,
+    "brackets-git.commitAllShortcut": null,
+    "brackets-git.bashShortcut": null,
+    "brackets-git.pushShortcut": null,
+    "brackets-git.pullShortcut": null,
+    "brackets-git.gotoPrevChangeShortcut": null,
+    "brackets-git.gotoNextChangeShortcut": null,
+    "brackets-git.terminalCommand": null,
+    "brackets-git.terminalCommandArgs": null,
+    "brackets-git.debugMode": false
+}
