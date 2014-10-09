@@ -22,7 +22,7 @@
         "unusedcode"
     ],
     "linting.collapsed": true,
-    "fonts.fontSize": "12px",
+    "fonts.fontSize": "14px",
     "showLineNumbers": true,
     "sacah.keyremapper.loadremapperdialog.keymap": {
         "navigate.toggleQuickEdit": {
@@ -36,22 +36,6 @@
         "navigate.jumptoDefinition": {
             "commandID": "navigate.jumptoDefinition",
             "key": "Ctrl-Shift-I"
-        },
-        "file.openFolder": {
-            "commandID": "file.openFolder",
-            "key": "Alt-F-O"
-        },
-        "file.open": {
-            "commandID": "file.open",
-            "key": "Alt-F-F"
-        },
-        "file.newDoc": {
-            "commandID": "file.newDoc",
-            "key": "Alt-F-Alt-I"
-        },
-        "file.save": {
-            "commandID": "file.save",
-            "key": "Ctrl-S"
         },
         "file.saveAll": {
             "commandID": "file.saveAll",
@@ -80,10 +64,6 @@
         "navigate.prevDoc": {
             "commandID": "navigate.prevDoc",
             "key": "Ctrl-Shift-Tab"
-        },
-        "file.quit": {
-            "commandID": "file.quit",
-            "key": "Alt-F-X"
         },
         "edit.showCodeHints": {
             "commandID": "edit.showCodeHints",
@@ -125,10 +105,6 @@
             "commandID": "navigate.newRule",
             "key": "Ctrl-Alt-N"
         },
-        "navigate.quickOpen": {
-            "commandID": "navigate.quickOpen",
-            "key": "Ctrl-Shift-O"
-        },
         "navigate.gotoDefinition": {
             "commandID": "navigate.gotoDefinition",
             "key": "Ctrl-T"
@@ -149,8 +125,8 @@
             "commandID": "file.previewHighlight",
             "key": "Ctrl-Shift-C"
         },
-        "file.reloadLivePreview": {
-            "commandID": "file.reloadLivePreview",
+        "cmd.replaceInFiles": {
+            "commandID": "cmd.replaceInFiles",
             "key": "Ctrl-Shift-R"
         },
         "edit.indent": {
@@ -215,7 +191,7 @@
         },
         "edit.redo": {
             "commandID": "edit.redo",
-            "key": "Ctrl-Y"
+            "key": "Ctrl-Shift-Z"
         },
         "edit.cut": {
             "commandID": "edit.cut",
@@ -241,10 +217,6 @@
             "commandID": "cmd.findInFiles",
             "key": "Ctrl-Shift-F"
         },
-        "cmd.replaceInFiles": {
-            "commandID": "cmd.replaceInFiles",
-            "key": "Ctrl-Shift-H"
-        },
         "cmd.find": {
             "commandID": "cmd.find",
             "key": "Ctrl-F"
@@ -255,7 +227,7 @@
         },
         "cmd.replace": {
             "commandID": "cmd.replace",
-            "key": "Ctrl-H"
+            "key": "Ctrl-R"
         },
         "cmd.findPrevious": {
             "commandID": "cmd.findPrevious",
@@ -305,10 +277,6 @@
             "commandID": "codefolding.expand",
             "key": "Ctrl-Alt-X"
         },
-        "codefolding.collapse.all": {
-            "commandID": "codefolding.collapse.all",
-            "key": "CtrAlt-1"
-        },
         "codefolding.expand.all": {
             "commandID": "codefolding.expand.all",
             "key": "Alt-Shift-1"
@@ -316,7 +284,40 @@
         "brackets-git.panel": {
             "commandID": "brackets-git.panel",
             "key": "Ctrl-Alt-G"
-        }
+        },
+        "file.openFolder": {
+            "commandID": "file.openFolder",
+            "key": "Alt-F"
+        },
+        "file.open": {
+            "commandID": "file.open",
+            "key": "Alt-F"
+        },
+        "file.newDoc": {
+            "commandID": "file.newDoc",
+            "key": "Alt-F-Alt-I"
+        },
+        "file.quit": {
+            "commandID": "file.quit",
+            "key": "Alt-F"
+        },
+        "navigate.quickOpen": {
+            "commandID": "navigate.quickOpen",
+            "key": "Shift-Shift"
+        },
+        "codefolding.collapse.all": {
+            "commandID": "codefolding.collapse.all",
+            "key": "CtrAlt-1"
+        },
+        "file.save": {
+            "commandID": "file.save",
+            "key": "Ctrl-S"
+        },
+        "file.reloadLivePreview": {
+            "commandID": "file.reloadLivePreview",
+            "key": "Ctrl-Shift-R"
+        },
+        
     },
     "brackets-git.gitPath": "git",
     "brackets-git.stripWhitespaceFromCommits": true,
@@ -345,5 +346,6 @@
     "brackets-git.gotoNextChangeShortcut": null,
     "brackets-git.terminalCommand": null,
     "brackets-git.terminalCommandArgs": null,
-    "brackets-git.debugMode": false
+    "brackets-git.debugMode": false,
+    "styleActiveLine": true
 }
