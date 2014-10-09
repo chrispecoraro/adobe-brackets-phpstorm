@@ -287,7 +287,7 @@
         },
         "file.openFolder": {
             "commandID": "file.openFolder",
-            "key": "Alt-F"
+            "key": "Alt-F-Alt-R"
         },
         "file.open": {
             "commandID": "file.open",
@@ -295,19 +295,19 @@
         },
         "file.newDoc": {
             "commandID": "file.newDoc",
-            "key": "Alt-F-Alt-I"
+            "key": "Alt-F"
         },
         "file.quit": {
             "commandID": "file.quit",
-            "key": "Alt-F"
+            "key": ""
         },
         "navigate.quickOpen": {
             "commandID": "navigate.quickOpen",
-            "key": "Shift-Shift"
+            "key": "Shift-Alt-O"
         },
         "codefolding.collapse.all": {
             "commandID": "codefolding.collapse.all",
-            "key": "CtrAlt-1"
+            "key": "Ctr-Alt-1"
         },
         "file.save": {
             "commandID": "file.save",
@@ -316,7 +316,7 @@
         "file.reloadLivePreview": {
             "commandID": "file.reloadLivePreview",
             "key": "Ctrl-Shift-R"
-        },
+        }
         
     },
     "brackets-git.gitPath": "git",
