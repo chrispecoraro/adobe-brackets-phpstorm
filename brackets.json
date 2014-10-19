@@ -1,7 +1,7 @@
 {
     "debug.showErrorsInStatusBar": false,
     "mikaeljorhult.bracketsPHPLintTools.php-available": true,
-    "themes.theme": "dark-theme",
+    "themes.theme": "wombatish-theme",
     "themes.themeScrollbars": true,
     "mikaeljorhult.bracketsPHPLintTools.enabled-tools": [
         "phpcs",
@@ -105,6 +105,10 @@
             "commandID": "navigate.newRule",
             "key": "Ctrl-Alt-N"
         },
+        "navigate.quickOpen": {
+            "commandID": "navigate.quickOpen",
+            "key": "Ctrl-Shift-Z"
+        },
         "navigate.gotoDefinition": {
             "commandID": "navigate.gotoDefinition",
             "key": "Ctrl-T"
@@ -189,10 +193,6 @@
             "commandID": "edit.undo",
             "key": "Ctrl-Z"
         },
-        "edit.redo": {
-            "commandID": "edit.redo",
-            "key": "Ctrl-Shift-Z"
-        },
         "edit.cut": {
             "commandID": "edit.cut",
             "key": "Ctrl-X"
@@ -261,6 +261,10 @@
             "commandID": "debug.reloadWithoutUserExts",
             "key": "Shift-F5"
         },
+        "file.newProject": {
+            "commandID": "file.newProject",
+            "key": "Ctrl-Shift-P"
+        },
         "testingThings": {
             "commandID": "testingThings",
             "key": "Alt-T"
@@ -285,25 +289,41 @@
             "commandID": "brackets-git.panel",
             "key": "Ctrl-Alt-G"
         },
+        "caseConverter.uppercase": {
+            "commandID": "caseConverter.uppercase",
+            "key": "Ctrl-Shift-U"
+        },
+        "builder.build": {
+            "commandID": "builder.build",
+            "key": "Ctrl-Alt-B"
+        },
+        "me.drewh.jsbeautify": {
+            "commandID": "me.drewh.jsbeautify",
+            "key": "Ctrl-Shift-L"
+        },
+        "superClipboard.paste": {
+            "commandID": "superClipboard.paste",
+            "key": "Ctrl-Alt-V"
+        },
+        "searchFiles.show": {
+            "commandID": "searchFiles.show",
+            "key": "Ctrl-Alt-F"
+        },
         "file.openFolder": {
             "commandID": "file.openFolder",
             "key": "Alt-F-Alt-R"
         },
-        "file.open": {
-            "commandID": "file.open",
-            "key": "Alt-F"
-        },
         "file.newDoc": {
             "commandID": "file.newDoc",
-            "key": "Alt-F"
-        },
-        "file.quit": {
-            "commandID": "file.quit",
             "key": ""
         },
-        "navigate.quickOpen": {
-            "commandID": "navigate.quickOpen",
-            "key": "Shift-Alt-O"
+        "[object Object]": {
+            "commandID": {
+                "_name": "Show projects panel",
+                "_id": "ext-projects-show",
+                "_enabled": true
+            },
+            "key": "Alt-P"
         },
         "codefolding.collapse.all": {
             "commandID": "codefolding.collapse.all",
@@ -313,11 +333,22 @@
             "commandID": "file.save",
             "key": "Ctrl-S"
         },
+        "edit.redo": {
+            "commandID": "edit.redo",
+            "key": "Ctrl-Shift-Z"
+        },
         "file.reloadLivePreview": {
             "commandID": "file.reloadLivePreview",
             "key": "Ctrl-Shift-R"
+        },
+        "file.quit": {
+            "commandID": "file.quit",
+            "key": ""
+        },
+        "file.open": {
+            "commandID": "file.open",
+            "key": ""
         }
-        
     },
     "brackets-git.gitPath": "git",
     "brackets-git.stripWhitespaceFromCommits": true,
@@ -347,5 +378,48 @@
     "brackets-git.terminalCommand": null,
     "brackets-git.terminalCommandArgs": null,
     "brackets-git.debugMode": false,
-    "styleActiveLine": true
+    "styleActiveLine": true,
+    "closeBrackets": true,
+    "dnbard.projects.favorites": [],
+    "dnbard.projects.filter": [
+        "favorite",
+        "regular"
+    ],
+    "dnbard.projects.customs": [],
+    "dnbard.documents-toolbar.icons": true,
+    "dnbard.documents-toolbar.tooltip": false,
+    "dnbard.documents-toolbar.close_left": false,
+    "dnbard.documents-toolbar.workingFiles": true,
+    "dnbard.documents-toolbar.brackets_font": true,
+    "dnbard.documents-toolbar.grayscaleIcons": false,
+    "brackets-various-improvements.user-prefs": {
+        "enabled-features": {
+            "case-converter": true,
+            "better-interface": true,
+            "super-clipboard": true,
+            "search-files": true
+        },
+        "files-extensions": [
+            ".js",
+            ".css",
+            ".html"
+        ],
+        "units": "byte"
+    },
+    "WakaTime.ignore": [
+        "^/var/",
+        "^/tmp/",
+        "^/private/"
+    ],
+    "linting.enabled": true,
+    "useTabChar": false,
+    "wordWrap": true,
+    "prefUI.proxy-enabled": false,
+    "prefUI.proxy-string": ":@:",
+    "smartIndent": true,
+    "insertHintOnTab": false,
+    "sortDirectoriesFirst": true,
+    "staticserver.port": "",
+    "scrollPastEnd": false,
+    "softTabs": true
 }
