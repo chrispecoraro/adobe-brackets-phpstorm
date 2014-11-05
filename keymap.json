@@ -1,4 +1,6 @@
- "overrides": {
+{
+    "documentation": "https://github.com/adobe/brackets/wiki/User-Key-Bindings",
+    "overrides": {
     "Ctrl-S"           :   "file.saveAll",
     "Ctrl-Shift-/"     :   "edit.blockComment",
     "Ctrl-/"           :   "edit.lineComment",
@@ -13,11 +15,6 @@
     "Ctrl-Alt-L"       :   "edit.splitSelIntoLines",
     "Alt-Shift-Down"   :   "edit.addCursorToNextLine",
     "Alt-Shift-Up"     :   "edit.addCursorToPrevLine",
-    "Ctrl-Z"           :   "edit.undo",
-    "Ctrl-X"           :   "edit.cut",
-    "Ctrl-C"           :   "edit.copy",
-    "Ctrl-V"           :   "edit.paste",
-    "Ctrl-A"           :   "edit.selectAll",
     "F1"               :   "help.support",
     "Ctrl-Shift-F"     :   "cmd.findInFiles",
     "Ctrl-F"           :   "cmd.find",
@@ -31,8 +28,8 @@
     "F12"              :   "debug.showDeveloperTools",
     "F5"               :   "debug.refreshWindow",
     "Shift-F5"         :   "debug.reloadWithoutUserExts",
-    "Ctrl-Shift-P"     :   "file.newProject", 
-    "Alt-T"            :   "testingThings", 
+    "Ctrl-Shift-P"     :   "file.newProject",
+    "Alt-T"            :   "testingThings",
     "Ctrl-Shift-Space" :   "showParameterHint",
     "Ctrl-Alt-C"       :   "codefolding.collapse",
     "Ctrl-Alt-X"       :   "codefolding.expand",
@@ -40,20 +37,6 @@
     "Ctrl-Alt-G"       :   "brackets-git.panel",
     "Ctrl-Shift-U"     :   "caseConverter.uppercase",
     "Ctrl-Alt-B"       :   "builder.build",
-    "Ctrl-Alt-F"       :   "searchFiles.show",
-    "Alt-F-Alt-R"      :   "file.openFolder"
-     
+    "Ctrl-Alt-F"       :   "searchFiles.show"
     }
-
-//        Sublime shortcuts as formatting example:
-//        "Ctrl-Shift-L":  "edit.splitSelIntoLines",
-//        "Ctrl-Alt-Up":   "edit.addCursorToPrevLine",
-//        "Ctrl-Alt-Down": "edit.addCursorToNextLine",
-//        "Ctrl-Shift-D":  "edit.duplicate",
-//        "Ctrl-Shift-K":  "edit.deletelines",
-//        "Ctrl-D":        "cmd.addNextMatch",
-//        "Alt-Shift-1":   "cmd.splitViewNone",
-//        "Alt-Shift-2":   "cmd.splitViewVertical",
-//        "Alt-Shift-8":   "cmd.splitViewHorizontal",
-//        "Ctrl-R":        "navigate.gotoDefinition",
-//        "Ctrl-P":        "navigate.quickOpen"
+}
