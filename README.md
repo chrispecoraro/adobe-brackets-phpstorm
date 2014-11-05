@@ -1,8 +1,10 @@
 adobe-brackets-phpstorm
 =======================
 
-Remap some of the Adobe Brackets shortcuts to match those of PHPStorm.
-N.B. Remapper doesn't appear to support the SHIFT-SHIFT shortcut combination.
+Remap some of the Adobe Brackets shortcuts to match those of PHPStorm and/or WebStorm.
+N.B: SHIFT-SHIFT cannot be recreated.
+Updated to Brackets 1.0 keymap.json mechanism
+
 
 Plugins Installed:
 
